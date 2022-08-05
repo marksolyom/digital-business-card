@@ -12,14 +12,13 @@ body {
   font-family: 'Inter', sans-serif;
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #1a1b21;
 }
 
 header h1 {
@@ -28,6 +27,11 @@ header h1 {
 
 header h2 {
   font-size: 18px;
+}
+
+.App {
+  width: 350px;
+  background-color: #1a1b21;
 }
 
 .sword-img {
@@ -46,4 +50,27 @@ header h2 {
 .mail-logo {
   width: 40px;
   margin-right: 10px;
+}
+
+.main-section {
+  margin-top: 30px;
+}
+
+.interests,
+.about {
+  padding: 0 40px;
+  font-size: 15px;
+}
+
+footer {
+  display: flex;
+  background-color: #161619;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-logo {
+  width: 40px;
+  margin: 15px 10px;
+  border-radius: 10px;
 }
